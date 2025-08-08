@@ -163,7 +163,11 @@ These dashboards together provide stakeholders with:
 
 **Website Screenshots**
 
-![Current Fraud Scenario](Screenshot_20250808_090811.png)
+![Current Fraud Scenario](Screenshot%202025-08-08%20102503.png)
+![Current Fraud Scenario](Screenshot%202025-08-08%20102516.png)
+![Current Fraud Scenario](Screenshot%202025-08-08%20102540.png)
+![Current Fraud Scenario](Screenshot%202025-08-08%20102627.png)
+
 
 
 
