@@ -169,6 +169,13 @@ These dashboards together provide stakeholders with:
 ![Current Fraud Scenario](Screenshot%202025-08-08%20102627.png)
 
 
+**ML Screenshots**
+
+![Current Fraud Scenario](ml1.jpg)
+![Current Fraud Scenario](ml2.jpg)
+
+
+
 
 
 
