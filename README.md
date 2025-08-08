@@ -139,9 +139,12 @@ These dashboards together provide stakeholders with:
 ## Screenshots
 
 
-
+**Dashboard 1**
 ![Current Fraud Scenario](s1.jpg)
+**Dashboard 2**
 ![Current Fraud Scenario](s2.jpg)
+
+**App Screenshots**
 
 
 ![Current Fraud Scenario](Screenshot_20250808_090149.png)
@@ -157,6 +160,12 @@ These dashboards together provide stakeholders with:
 ![Current Fraud Scenario](Screenshot_20250808_090811.png)
 ![Current Fraud Scenario](Screenshot_20250808_090849.png)
 ![Current Fraud Scenario](Screenshot_20250808_090912.png)
+
+**Website Screenshots**
+
+![Current Fraud Scenario](Screenshot_20250808_090811.png)
+
+
 
 
 
