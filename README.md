@@ -55,3 +55,13 @@ These dashboards together provide stakeholders with:
 ---
 
 *SecureSwipe - Empowering secure payments with AI-driven fraud prevention.*
+
+## Screenshots
+
+
+
+![Current Fraud Scenario](s1.jpg)
+![Current Fraud Scenario](s2.jpg)
+
+
+
