@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    /* Light theme colors */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --dashboard-bg: 240 6% 97%;
+    
+    /* Card & Surface Colors */
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --card-hover: 240 6% 98%;
+    
+    /* Interactive Elements */
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    
+    /* Brand Colors - Professional Blue Theme */
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-muted: 217 50% 45%;
+    
+    /* Secondary & Neutral */
+    --secondary: 240 6% 96%;
+    --secondary-foreground: 240 5% 11%;
+    
+    --muted: 240 6% 96%;
+    --muted-foreground: 240 4% 46%;
+    
+    --accent: 240 6% 96%;
+    --accent-foreground: 240 5% 11%;
+    
+    /* Alert & Status Colors */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    
+    /* Borders & Inputs */
+    --border: 240 6% 90%;
+    --input: 240 6% 96%;
+    --ring: 217 91% 60%;
+
+    /* Layout & Spacing */
+    --radius: 0.75rem;
+    
+    /* Gradients & Effects */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(217 70% 50%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(240 6% 98%) 100%);
+    --gradient-danger: linear-gradient(135deg, hsl(var(--destructive)) 0%, hsl(0 65% 50%) 100%);
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 4px hsl(0 0% 0% / 0.05);
+    --shadow-md: 0 4px 12px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0 8px 25px hsl(0 0% 0% / 0.15);
+    --shadow-primary: 0 8px 25px hsl(var(--primary) / 0.2);
+    
+    /* Sidebar */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 240 5% 26%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 6% 96%;
+    --sidebar-accent-foreground: 240 5% 11%;
+    --sidebar-border: 240 6% 90%;
+    --sidebar-ring: 217 91% 60%;
+    
+    /* Animations */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    /* Dark theme colors */
+    --background: 240 10% 4%;
+    --foreground: 240 5% 95%;
+    --dashboard-bg: 240 8% 6%;
+    
+    /* Card & Surface Colors */
+    --card: 240 8% 8%;
+    --card-foreground: 240 5% 95%;
+    --card-hover: 240 8% 10%;
+    
+    /* Interactive Elements */
+    --popover: 240 8% 8%;
+    --popover-foreground: 240 5% 95%;
+    
+    /* Brand Colors - Professional Blue Theme */
+    --primary: 217 91% 60%;
+    --primary-foreground: 240 10% 4%;
+    --primary-muted: 217 50% 45%;
+    
+    /* Secondary & Neutral */
+    --secondary: 240 6% 15%;
+    --secondary-foreground: 240 5% 85%;
+    
+    --muted: 240 6% 12%;
+    --muted-foreground: 240 4% 65%;
+    
+    --accent: 240 6% 15%;
+    --accent-foreground: 240 5% 85%;
+    
+    /* Alert & Status Colors */
+    --destructive: 0 75% 60%;
+    --destructive-foreground: 240 10% 4%;
+    --success: 142 76% 55%;
+    --success-foreground: 240 10% 4%;
+    --warning: 38 92% 55%;
+    --warning-foreground: 240 10% 4%;
+    
+    /* Borders & Inputs */
+    --border: 240 6% 20%;
+    --input: 240 6% 12%;
+    --ring: 217 91% 60%;
+    
+    /* Gradients & Effects */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(217 70% 50%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(240 8% 9%) 100%);
+    --gradient-danger: linear-gradient(135deg, hsl(var(--destructive)) 0%, hsl(0 65% 50%) 100%);
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 4px hsl(0 0% 0% / 0.1);
+    --shadow-md: 0 4px 12px hsl(0 0% 0% / 0.15);
+    --shadow-lg: 0 8px 25px hsl(0 0% 0% / 0.2);
+    --shadow-primary: 0 8px 25px hsl(var(--primary) / 0.3);
+    
+    /* Sidebar */
+    --sidebar-background: 240 10% 5%;
+    --sidebar-foreground: 240 5% 85%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 240 10% 4%;
+    --sidebar-accent: 240 6% 12%;
+    --sidebar-accent-foreground: 240 5% 85%;
+    --sidebar-border: 240 6% 15%;
+    --sidebar-ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-dashboard-bg text-foreground font-sans antialiased;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary-muted));
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary));
+  }
+}
+
+@layer components {
+  /* Dashboard specific components */
+  .dashboard-card {
+    @apply bg-card border border-border rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300;
+  }
+  
+  .stat-card {
+    @apply dashboard-card p-6 space-y-2;
+  }
+  
+  .risk-badge-high {
+    @apply bg-destructive text-destructive-foreground px-2 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .risk-badge-medium {
+    @apply bg-warning text-warning-foreground px-2 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .risk-badge-low {
+    @apply bg-success text-success-foreground px-2 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .status-badge-active {
+    @apply bg-success/20 text-success border border-success/30 px-2 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .status-badge-disabled {
+    @apply bg-muted text-muted-foreground border border-border px-2 py-1 rounded-full text-xs font-medium;
+  }
+}
