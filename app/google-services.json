@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521212557762",
+    "project_id": "swipe-51986",
+    "storage_bucket": "swipe-51986.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521212557762:android:602d4af65a8d72fce5be5b",
+        "android_client_info": {
+          "package_name": "com.example.secureswipe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAanBrOt-k81JRlZtX1gl_tFmhaQ5-cFTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

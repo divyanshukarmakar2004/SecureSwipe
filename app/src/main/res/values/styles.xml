@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SpinnerStyle" parent="Theme.AppCompat.Light">
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+    </style>
+
+    <style name="SpinnerItem">
+        <item name="android:textColor">#616E8A</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+
+</resources>

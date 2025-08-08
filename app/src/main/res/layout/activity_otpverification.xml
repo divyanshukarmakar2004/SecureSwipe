@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPVerificationActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/text1_mainpage"
+        android:fontFamily="@font/manrope_bold"
+        android:text="OTP Verification"
+        android:layout_marginTop="20dp"
+        android:textSize="28dp" />
+
+
+
+
+    <EditText
+        android:id="@+id/otp_input"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_bg"
+        android:hint="OTP"
+        android:padding="12dp"
+        android:inputType="numberPassword"
+        android:layout_marginTop="200dp"
+        android:textColor="#616E8A"
+        android:textColorHint="#616E8A"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#1C5EF2"
+        android:id="@+id/verify_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manrope_bold"
+                android:text="Verify OTP"
+                android:layout_centerInParent="true"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:alpha="0.6"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="My image"
+        android:src="@drawable/otpimage" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QrCodeGenerator">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/text1_mainpage"
+        android:fontFamily="@font/manrope_bold"
+        android:text="QR Code Generator"
+        android:layout_marginTop="20dp"
+        android:textSize="28dp" />
+
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/codeview"/>
+
+</RelativeLayout>

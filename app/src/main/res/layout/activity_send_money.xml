@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendMoneyActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/text1_mainpage"
+        android:fontFamily="@font/manrope_bold"
+        android:text="Money Transfer"
+        android:layout_marginTop="20dp"
+        android:textSize="28dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/text2_mainpage"
+        android:fontFamily="@font/manrope_bold"
+        android:text="To"
+        android:layout_marginTop="80dp"
+        android:textSize="28dp" />
+
+    <EditText
+        android:id="@+id/edittext1_createpage"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_bg"
+        android:hint="Amount"
+        android:padding="12dp"
+        android:layout_below="@+id/text2_mainpage"
+        android:layout_marginTop="100dp"
+        android:textColor="#616E8A"
+        android:textColorHint="#616E8A"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#1C5EF2"
+        android:id="@+id/cardview1_createpage"
+        android:layout_below="@id/edittext1_createpage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manrope_bold"
+                android:text="Send"
+                android:layout_centerInParent="true"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
