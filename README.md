@@ -35,7 +35,6 @@ We propose a real-time, intelligent fraud detection system with the following ca
 - Audit trails and reporting for compliance and analysis.
 - Dashboard integration for analysts and stakeholders.
 
----
 
 ## Sample Code Snippet: Transaction Risk Scoring (Python)
 
